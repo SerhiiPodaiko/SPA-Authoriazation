@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f3f3;
+  height: 100vh;
+  color: #181C43;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin: 20px 0;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.sign-up, .sign-in {
+  margin: 0 15px;
+  @media (min-width: 576px) {
+    & {
+      max-width: 450px;
+      margin: 0 auto;
+    }
+  }
+  .account {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1A3E;
+  }
+}
+
+.sign-up-form, .sign-in-form {
+  padding: 23px 14px 18px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    label {
+      margin: 0 0 2px 18px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    input {
+      padding: 18px;
+      background: #e5e5e5;
+      border-radius: 50px;
+      outline: none;
+      border: none;
+    }
+  }
+  .sign-up-btn, .sign-in-btn {
+    margin-top: 25px;
+    padding: 18px 0;
+    width: 100%;
+    background: #1E1A3E;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    color: #FFFFFF;
+  }
+}
+
+.errorMessage {
+  color: red;
+}
+
+.error {
+  border: 1px solid red !important;
+}
