@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SPA-Authoriazation/static/css/main.4064ee78.chunk.css",
+    "main.js": "/SPA-Authoriazation/static/js/main.44480b79.chunk.js",
+    "main.js.map": "/SPA-Authoriazation/static/js/main.44480b79.chunk.js.map",
+    "runtime-main.js": "/SPA-Authoriazation/static/js/runtime-main.ad4e0986.js",
+    "runtime-main.js.map": "/SPA-Authoriazation/static/js/runtime-main.ad4e0986.js.map",
+    "static/js/2.0eb9839b.chunk.js": "/SPA-Authoriazation/static/js/2.0eb9839b.chunk.js",
+    "static/js/2.0eb9839b.chunk.js.map": "/SPA-Authoriazation/static/js/2.0eb9839b.chunk.js.map",
+    "index.html": "/SPA-Authoriazation/index.html",
+    "static/css/main.4064ee78.chunk.css.map": "/SPA-Authoriazation/static/css/main.4064ee78.chunk.css.map",
+    "static/js/2.0eb9839b.chunk.js.LICENSE.txt": "/SPA-Authoriazation/static/js/2.0eb9839b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad4e0986.js",
+    "static/js/2.0eb9839b.chunk.js",
+    "static/css/main.4064ee78.chunk.css",
+    "static/js/main.44480b79.chunk.js"
+  ]
+}
